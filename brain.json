@@ -1,0 +1,84 @@
+[
+  {
+    "patrones": [
+      "hola",
+      "buenas",
+      "hey"
+    ],
+    "respuestas": [
+      "Hola 😄",
+      "¡Hey! 😎",
+      "¡Buenas! ¿Cómo estás?",
+      "Como estas?"
+    ]
+  },
+  {
+    "patrones": [
+      "como estas",
+      "que tal",
+      "como va"
+    ],
+    "respuestas": [
+      "Bien, ¿y tú?",
+      "Todo bien, gracias 😊",
+      "Genial, ¿y tú cómo estás?"
+    ]
+  },
+  {
+    "patrones": [
+      "bien y tu",
+      "bien",
+      "todo bien",
+      "bien me alegro"
+    ],
+    "respuestas": [
+      "Me alegro 😁",
+      "¡Genial!",
+      "Perfecto, gracias por preguntar",
+      "Cuanto es 2 + 2?"
+    ]
+  },
+  {
+    "patrones": [
+      "mal",
+      "no muy bien",
+      "triste"
+    ],
+    "respuestas": [
+      "Oh, lo siento 😢",
+      "Espero que mejores pronto",
+      "Ánimo, todo pasará"
+    ]
+  },
+  {
+    "patrones": [
+      "adios",
+      "chao",
+      "nos vemos"
+    ],
+    "respuestas": [
+      "¡Adiós! 👋",
+      "Nos vemos pronto 😄",
+      "Hasta luego"
+    ]
+  },
+  {
+    "patrones": [
+      "gracias",
+      "muchas gracias"
+    ],
+    "respuestas": [
+      "De nada 😊",
+      "¡Con gusto!",
+      "Para eso estamos 😎"
+    ]
+  },
+  {
+    "patrones": [
+      "cuanto es 2  2"
+    ],
+    "respuestas": [
+      "4"
+    ]
+  }
+]
