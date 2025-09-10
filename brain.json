@@ -1,84 +1,393 @@
 [
   {
+    "categoria": "general",
+    "intent": "saludo_general",
     "patrones": [
       "hola",
-      "buenas",
-      "hey"
+      "hi",
+      "hey",
+      "holaaa",
+      "buenos días",
+      "buenas tardes",
+      "buenas noches",
+      "qué tal",
+      "qué onda",
+      "holi",
+      "ey",
+      "heyy",
+      "hola bro",
+      "hola amiga",
+      "holi bro",
+      "holi amiga",
+      "holaa xd",
+      "holi xd",
+      "hola uwu",
+      "hola 😄",
+      "holaa 😎",
+      "holi 😁",
+      "qué más",
+      "qué hubo",
+      "qué hubo bro",
+      "qué hubo amiga"
     ],
     "respuestas": [
-      "Hola 😄",
+      "¡Hola! 😄",
       "¡Hey! 😎",
-      "¡Buenas! ¿Cómo estás?",
-      "Como estas?"
+      "¡Hola! ¿Cómo estás?",
+      "¡Holi! 😁",
+      "¡Hola hola! 😄"
     ]
   },
   {
+    "categoria": "general",
+    "intent": "despedida",
     "patrones": [
-      "como estas",
-      "que tal",
-      "como va"
+      "adiós",
+      "bye",
+      "nos vemos",
+      "chao",
+      "hasta luego",
+      "hasta pronto",
+      "ahí nos vemos",
+      "nos vemos luego",
+      "cuidate",
+      "bye bye",
+      "hasta la próxima",
+      "nos estamos hablando",
+      "chau",
+      "chao bro",
+      "chao amiga"
     ],
     "respuestas": [
-      "Bien, ¿y tú?",
-      "Todo bien, gracias 😊",
-      "Genial, ¿y tú cómo estás?"
+      "¡Adiós! Que tengas un buen día 👋",
+      "¡Nos vemos pronto! 😊",
+      "Chao, cuídate 😄",
+      "Hasta luego 😎",
+      "Nos estamos hablando 😄"
     ]
   },
   {
+    "categoria": "general",
+    "intent": "pregunta_estado",
     "patrones": [
-      "bien y tu",
+      "cómo estás",
+      "qué tal",
+      "cómo te va",
+      "cómo te encuentras",
+      "qué tal tu día",
+      "cómo va todo",
+      "cómo te sientes",
+      "qué onda",
+      "todo bien",
+      "cómo va",
+      "cómo andas",
+      "qué tal bro",
+      "qué tal amiga"
+    ],
+    "respuestas": [
+      "¡Estoy bien, gracias! 😄 ¿Y tú?",
+      "Todo genial, gracias por preguntar 😎",
+      "¡Muy bien! ¿Y tú cómo estás?",
+      "Aquí tranquilo 😁 ¿Y tú?"
+    ]
+  },
+  {
+    "categoria": "general",
+    "intent": "agradecimiento",
+    "patrones": [
+      "gracias",
+      "muchas gracias",
+      "mil gracias",
+      "te lo agradezco",
+      "gracias amigo",
+      "gracias bro",
+      "gracias amiga",
+      "gracias mae",
+      "thanks",
+      "gracias totales"
+    ],
+    "respuestas": [
+      "¡De nada! 😄",
+      "¡Con gusto! 😎",
+      "¡A la orden! 😊",
+      "No hay problema 😁",
+      "Para eso estoy 😎"
+    ]
+  },
+  {
+    "categoria": "general",
+    "intent": "pregunta_hora",
+    "patrones": [
+      "qué hora es",
+      "me puedes decir la hora",
+      "hora actual",
+      "sabes la hora",
+      "dime la hora",
+      "qué hora tienes",
+      "hora por favor"
+    ],
+    "respuestas": [
+      "No tengo un reloj, pero puedes revisar tu dispositivo ⏰",
+      "No sé la hora exacta, pero es buen momento para un descanso 😄"
+    ]
+  },
+  {
+    "categoria": "general",
+    "intent": "pregunta_clima",
+    "patrones": [
+      "qué clima hace",
+      "cómo está el clima",
+      "llueve",
+      "hace sol",
+      "temperatura actual",
+      "clima hoy",
+      "cómo está el tiempo",
+      "qué tiempo hace"
+    ],
+    "respuestas": [
+      "No tengo acceso al clima ahora, pero seguro hace un buen día ☀️",
+      "No sé cómo está el clima, revisa tu app de clima 🌦️"
+    ]
+  },
+  {
+    "categoria": "general",
+    "intent": "saludo_pregunta",
+    "patrones": [
+      "hola cómo estás",
+      "buenas cómo estás",
+      "hey cómo estás",
+      "hola qué tal",
+      "qué tal estás",
+      "qué onda cómo estás",
+      "hola bro cómo estás",
+      "holi amiga cómo estás"
+    ],
+    "respuestas": [
+      "¡Hola! Estoy bien, gracias 😄, ¿y tú?",
+      "¡Hey! Todo bien por aquí 😎 ¿y tú?"
+    ]
+  },
+  {
+    "categoria": "general",
+    "intent": "emocion",
+    "patrones": [
+      "estoy feliz",
+      "me siento triste",
+      "estoy enojado",
+      "me siento mal",
+      "estoy aburrido",
+      "me siento bien",
+      "estoy emocionado",
+      "me siento cansado",
+      "estoy alegre",
+      "estoy agotado"
+    ],
+    "respuestas": [
+      "¡Ánimo! 😄",
+      "Lo siento, espero que te sientas mejor 😔",
+      "¡Qué bien! 😎",
+      "Espero que tu día mejore 😊"
+    ]
+  },
+  {
+    "categoria": "general",
+    "intent": "respuesta_bien",
+    "patrones": [
       "bien",
       "todo bien",
-      "bien me alegro"
+      "estoy bien",
+      "tranquilo",
+      "tranquila",
+      "excelente",
+      "muy bien",
+      "perfecto",
+      "ok",
+      "vale",
+      "todo en orden",
+      "genial",
+      "muy bien bro",
+      "todo ok",
+      "perfecto 😎"
     ],
     "respuestas": [
-      "Me alegro 😁",
-      "¡Genial!",
-      "Perfecto, gracias por preguntar",
-      "Cuanto es 2 + 2?"
+      "¡Qué bueno! 😄",
+      "Me alegra escuchar eso 😎",
+      "Perfecto, sigamos conversando 😄",
+      "¡Genial! 😎"
     ]
   },
   {
+    "categoria": "general",
+    "intent": "respuesta_mal",
     "patrones": [
       "mal",
       "no muy bien",
-      "triste"
+      "triste",
+      "cansado",
+      "cansada",
+      "estresado",
+      "estresada",
+      "enojado",
+      "enojada",
+      "aburrido",
+      "aburrida",
+      "fatal",
+      "malísimo",
+      "terrible",
+      "no estoy bien"
     ],
     "respuestas": [
-      "Oh, lo siento 😢",
-      "Espero que mejores pronto",
-      "Ánimo, todo pasará"
+      "Lo siento 😢",
+      "Espero que todo mejore 😞",
+      "Ánimo, todo pasará 😄",
+      "Oh no 😢"
     ]
   },
   {
+    "categoria": "general",
+    "intent": "conversacion_basica",
     "patrones": [
-      "adios",
-      "chao",
-      "nos vemos"
+      "qué haces",
+      "qué haces hoy",
+      "qué planes tienes",
+      "qué estás haciendo",
+      "qué tal tu día",
+      "cómo va todo",
+      "qué haces ahora",
+      "qué onda hoy",
+      "qué onda bro",
+      "qué onda amiga",
+      "qué tal bro",
+      "qué tal amiga"
     ],
     "respuestas": [
-      "¡Adiós! 👋",
-      "Nos vemos pronto 😄",
-      "Hasta luego"
+      "Nada especial, ¿y tú? 😄",
+      "Solo pasando el rato, ¿y tú qué tal?",
+      "Aquí listo para conversar 😎"
     ]
   },
   {
+    "categoria": "general",
+    "intent": "interes_por_usuario",
     "patrones": [
-      "gracias",
-      "muchas gracias"
+      "cuéntame más",
+      "qué me cuentas",
+      "cómo va todo",
+      "qué tal tu día",
+      "dime más",
+      "cuéntame algo",
+      "cuéntame cómo estuvo tu día",
+      "qué hay de nuevo",
+      "cuéntame bro",
+      "cuéntame amiga"
     ],
     "respuestas": [
-      "De nada 😊",
-      "¡Con gusto!",
-      "Para eso estamos 😎"
+      "¡Cuéntame más!",
+      "Interesante, dime más 😄",
+      "Ah sí, cuéntame más sobre eso"
     ]
   },
   {
+    "categoria": "general",
+    "intent": "opiniones",
     "patrones": [
-      "cuanto es 2  2"
+      "qué opinas",
+      "cuál es tu opinión",
+      "qué piensas",
+      "dime tu opinión",
+      "tu opinión",
+      "qué me dices",
+      "qué piensas de esto"
     ],
     "respuestas": [
-      "4"
+      "Interesante pregunta 😄",
+      "Creo que depende de la situación 😎",
+      "No tengo una opinión concreta, pero puedo aprender de ti 😁"
+    ]
+  },
+  {
+    "categoria": "general",
+    "intent": "bienvenida",
+    "patrones": [
+      "mucho gusto",
+      "un placer",
+      "encantado",
+      "encantada",
+      "es un gusto conocerte",
+      "hola gusto en saludarte",
+      "hola mucho gusto"
+    ],
+    "respuestas": [
+      "¡El gusto es mío! 😄",
+      "Encantado de conocerte 😎",
+      "Un placer saludarte 😊"
+    ]
+  },
+  {
+    "categoria": "general",
+    "intent": "respuesta_bien_usuario",
+    "patrones": [
+      "bien y tu",
+      "bien, y tu",
+      "bien y tú",
+      "bien, y tú",
+      "todo bien y tu",
+      "todo bien, y tu",
+      "tranquilo y tu",
+      "tranquila y tu",
+      "todo bien y tú",
+      "todo ok y tu"
+    ],
+    "respuestas": [
+      "¡Me alegro de eso! 😄",
+      "Qué bueno 😎, me alegra escucharlo",
+      "Perfecto 😁, me alegra saberlo",
+      "¡Genial! 😄 ¿Y tú cómo estás?"
+    ]
+  },
+  {
+    "categoria": "general",
+    "intent": "pregunta",
+    "patrones": [
+      "para que sirve el bolso",
+      "que es meter un gol en soccer",
+      "que es un gol",
+      "quien es selena gomez",
+      "quien es cristiano ronaldo",
+      "quien es galy galiano",
+      "quien es andrea bocelli"
+    ],
+    "respuestas": [
+      "bolsa de viaje o bolso: bolso de gran tamaño usado para viajar. Sirve para transportar camisas, pantalones, zapatos, etc. Carriel: bolsa de cuero masculino. ​​ El mercado de capitales, que es uno de los mercados que pueden funcionar en la bolsa, constituye un mecanismo de inversiones y ahorros que sirve de...",
+      "Storm en la misma liga. Es conocida por meter un penal para ganar ante China en el mundial de fútbol de 1999, y su celebración después de meter el gol.​ Dentro. época esparcieron el rumor que el club pagó una cantidad de dinero (2000Q) al Deportivo Zacapa para que se dejaran meter gol. Se jugaba la última fecha...",
+      "El Volkswagen Gol fue un automóvil del segmento B diseñado y producido en Brasil para América Latina por el fabricante alemán Volkswagen. Reemplazó al. Gol (del inglés goal; meta, objetivo) es la marcación de un tanto o punto, objetivo del juego en varios deportes. Se considera que el equipo o participante...",
+      "selena gomez: Selena Marie Gomez (Grand Prairie, Texas, 22 de julio de 1992) es una cantante, compositora, actriz, productora, empresaria y filántropa estadounidense",
+      "cristiano ronaldo: Cristiano Ronaldo dos Santos Aveiro (Funchal, Madeira, 5 de febrero de 1985) es un futbolista portugués",
+      "galy galiano: Carmelo Galiano Cotes (Chiriguaná, Cesar, Colombia, 10 de febrero de 1958), conocido artísticamente como Galy Galiano, es un compositor y cantautor colombiano",
+      "Galy Galiano: Carmelo Galiano Cotes (Chiriguaná, Cesar, Colombia, 10 de febrero de 1958), conocido artísticamente como Galy Galiano, es un compositor y cantautor colombiano",
+      "Andrea Bocelli: Andrea Bocelli (pronunciación en italiano: /anˈdrɛːa boˈtʃɛlli/; Lajatico, Italia, 22 de septiembre de 1958)​ es un cantante, músico, multiinstrumentista"
+    ]
+  },
+  {
+    "categoria": "general",
+    "intent": "general",
+    "patrones": [
+      "me da gusto",
+      "custodia",
+      "duren",
+      "quien es keilor navas",
+      "a donde queda el colegio de chacarita",
+      "cuantos anos tiene keylor navas",
+      "yo tambien te amo",
+      "me dormi amor",
+      "te amo",
+      "me gustas"
+    ],
+    "respuestas": [
+      "Gusto artístico o gusto estético es la sensibilidad en contextos artísticos o estéticos; que por analogía se compara al sentido del gusto en vez de a. presentar el gusto son los siguientes:​ Ageusia: pérdida casi total del gusto.​ Disgeusia: es una distorsión en la percepción del gusto, puede manifestarse...",
+      "la custodia propiamente dicha. Para diferenciarla de ésta, se la suele llamar también custodia de asiento. Las mayores y más artísticas custodias de asiento. tradición que una de los orígenes del nombre Custódia vendría del hecho de que los jesuitas estén &quot;bajo custódia&quot; de la población local que los acogió, ya...",
+      "Düren (en fráncico ripuario, Düre) es una ciudad alemana del estado de Renania del Norte-Westfalia que se sitúa entre Colonia y Aquisgrán, en el margen. Düren es un kreis (distrito) ubicado al oeste del estado federal de Renania del Norte-Westfalia (Alemania). Tiene una población estimada, a fines de 2020...",
+      "Keilor Antonio Navas Gamboa (Pérez Zeledón, San José, 15 de diciembre de 1986) es un futbolista costarricense que juega como portero en el C. Universidad. del siglo XXI”: Keilor Soto puesto 4 y Kendall Waston puesto 31.​ Declarado el mejor guardameta de la Concacaf 1987-2020 : Keylor Navas.​ Jugadores elegidos..."
     ]
   }
 ]
